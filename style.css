@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    /* background: yellow; */
+    background: linear-gradient(to right, red 50%, blue 50%);
+}
+html::-webkit-scrollbar {
+    display: none;
+}
+
+
+#opponent-score , #opponent-scores {
+    top: 10px;
+    float: left;
+    font-size: 50px;
+    color: white;
+}
+
+#your-score {
+    float: right;
+    top: 10px;
+    font-size: 50px;
+    color: white;   
+}
+
+#opponent-choice {
+    width: 240px;
+    height: 240px;
+    margin-top: 10px;
+    border: 2px dashed black;
+    border-radius: 120px;
+}
+
+#your-choice {
+    width: 240px;
+    height: 240px;
+    border: 2px dashed black;
+    border-radius: 120px;
+    margin-left: 90px;
+    margin-top: 200px;
+}
+
+#choices {
+    width: 240px;
+    height: 80px;
+    margin: 0 auto;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-right: 250px;
+}
+
+#choices img {
+    width: 80px;
+    height: 80px;
+}
